@@ -1,0 +1,22 @@
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Abby Wambach",
+  "email": "abby@test.com",
+  "password": "soccer5lyfe",
+  "password_confirmation": "soccer5lyfe"
+
+
+}
+
+###
+
+POST http://localhost:3000/dogs.json
+Content-Type: application/json
+
+{
+  "name": "Sparky",
+  "age": "4",
+  "breed": "Pitbull"
+}
